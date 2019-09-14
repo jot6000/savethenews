@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #6495ED;
+}
+
+.pageContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageLeft{
+    width: 15vw;
+    background: lightgray;
+}
+
+.pageRight{
+    width: 15vw;
+    background: lightgray;
+}
+
+.pageCenter{
+    width: 70vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

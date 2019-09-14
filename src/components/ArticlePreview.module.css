@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: lightgray;
+}
+
+.container:hover{
+    background: #F5F5F5;
+    cursor: pointer;
+}
+
+.authorContainer{
+    width:140px;
+    text-align: left;
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: lightgray;
+    padding: 1rem;
+}
+
+.pictureContainer{
+    width:160px;
+    height:180px;
+    border-style: solid;
+    border-width: 0px 3px 0px 0px;
+    border-color: lightgray;
+}
+
+.picture{
+    width:160px;
+    height:160px;
+    background: orange;
+}
+
+.caption{
+    width:160px;
+    height:20px;
+    font-size: 10pt;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin-left:12px;
+    flex:1;
+}
+
+.articleContainer span{
+    margin-top: 10px;
+}
+
+.articleContainer h1,h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
