@@ -15,9 +15,9 @@ class AuthorCard extends React.Component {
                 <h1>Profile Avatar</h1>
                 <div className={styles.details}>
                     <list className={styles.stats}>
-                        <li>Article Count</li>
-                        <li>Reviews</li>
-                        <li>Rating</li>
+                        <li>Article Count <div>{this.props.articleCount}</div></li>
+                        <li>Reviews <div>{this.props.reviews}</div></li>
+                        <li>Rating <div>{this.props.rating}</div></li>
                     </list>
                     <span className={styles.bio}>
                         Author bio, this can be some kind of sprawly text about loving short walks on the beach or whatever.    
