@@ -17,7 +17,6 @@
   width: 5rem;
   margin-top: 2rem;
   border-style: solid;
-  border-colour: black;
   border-width: 0.5rem;
   border-radius: 50%;
 }
@@ -41,4 +40,9 @@ h1 {
   margin-top: 3rem;
   justify-content: flex-end;
   /* top: 2rem; */
+}
+
+#horizontalProfile {
+  display: flex;
+  align-items: center;
 }
