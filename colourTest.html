@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <!-- <body bgcolor="+color+"> -->
+  <body bgcolor="color">
+    <section><img src="randomImage.jpeg" /></section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.primarycolor.js"></script>
+    $(function() { $('.demo').primaryColor({ callback: function(color) {
+    $(this).parents('section').css('background-color', 'rgb('+color+')'); } });
+    });
+    <p style="color:+color+">Test</p>
+    <p style="color:color">Test</p>
+    <p></p>
+  </body>
+</html>

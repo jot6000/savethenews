@@ -1,0 +1,16 @@
+<img id="img" alt="" src="randomImage.jpeg" />
+
+<!-- change the image as per your preference -->
+
+<script>
+  document.body.onload = function() {
+    var colorThief = new ColorThief();
+    var sourceImage = document.getElementById("img");
+    var color = colorThief.getColor(sourceImage);
+    console.log(color);
+    document.body.style.background =
+      "rgb(" + color[0] + "," + color[1] + "," + color[2] + ")";
+  };
+</script>
+
+<p style="color=color">Test</p>
