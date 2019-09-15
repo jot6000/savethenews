@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './ArticlePreview.module.css'
 
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 class ArticlePreview extends React.Component {
     
     constructor(props) {
@@ -12,7 +14,7 @@ class ArticlePreview extends React.Component {
     }
     render() {
         return(
-            <div className={styles.container}>
+            <Link to={{pathname:"/article/"+this.props.articleTitle}} className={styles.container}>
                 <div className={styles.pictureContainer}>
                     <div className={styles.picture}/>
                     <caption className={styles.caption}>{this.props.caption}</caption>
@@ -30,7 +32,7 @@ class ArticlePreview extends React.Component {
                     <br/>
                     <div>Article Rating: </div>
                 </div> 
-            </div>
+            </Link>
         );
     }
 }
