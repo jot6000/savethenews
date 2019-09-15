@@ -1,0 +1,44 @@
+/* import React from 'react'; */
+
+/* export default basicStyling; */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#username {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-variant: small-caps;
+}
+
+#avatar {
+  width: 5rem;
+  margin-top: 2rem;
+  border-style: solid;
+  border-colour: black;
+  border-width: 0.5rem;
+  border-radius: 50%;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+#headerThings {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row-reverse; */
+}
+
+.profile {
+  display: flex;
+  margin-right: 2rem;
+  margin-top: 3rem;
+  justify-content: flex-end;
+  /* top: 2rem; */
+}
